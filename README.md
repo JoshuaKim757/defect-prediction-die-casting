@@ -195,8 +195,8 @@
 ```
 Real-Time-Defect-Prediction-for-Die-Casting-Manufacturing/
 │
-├── 다이캐스팅_불량예측.ipynb        # 메인 노트북 — 전체 파이프라인, 0~7 섹션이 각각의 셀
-├── DieCasting_Quality_Raw_Data.csv # 데이터셋 (포함되어 있어 별도 다운로드 불필요)
+├── 다이캐스팅_불량예측.ipynb        # 메인 노트북
+├── DieCasting_Quality_Raw_Data.csv # 데이터셋
 ├── 다이캐스팅 프로젝트.pdf          # 발표 자료
 └── README.md
 ```
