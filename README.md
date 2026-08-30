@@ -203,31 +203,6 @@ Real-Time-Defect-Prediction-for-Die-Casting-Manufacturing/
 
 ---
 
-## 설치
-
-데이터셋(`DieCasting_Quality_Raw_Data.csv`)은 이 저장소에 포함되어 있어 별도로 다운로드할 필요가 없습니다.
-
-```bash
-git clone https://github.com/Jkim8436/Real-Time-Defect-Prediction-for-Die-Casting-Manufacturing.git
-cd Real-Time-Defect-Prediction-for-Die-Casting-Manufacturing
-
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost lightgbm shap scipy jupyter
-```
-
----
-
-## 빠른 시작
-
-```python
-# 1. 노트북 열기
-jupyter notebook 다이캐스팅_불량예측.ipynb
-
-# 2. 처음부터 끝까지 순서대로 실행 (Kernel → Restart & Run All)
-
-# 3. 판정 로직 함수 직접 사용
-decision_logic("충전불량", sample_idx=0, top_n=5)
-```
-
 **예시 출력:**
 ```
 ==========================================================
